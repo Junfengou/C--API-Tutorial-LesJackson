@@ -3,9 +3,11 @@ using Commander.Models;
 
 namespace Commander.Data
 {
+    // Just a list of dummy data for testing purposes
+
     public class MockCommanderRepo : ICommanderRepo
     {
-        public IEnumerable<Command> GetAppCommands() // [IEnumerable] means sequence of data
+        public IEnumerable<Command> GetAllCommands() // [IEnumerable] means sequence of data
         {
             var commands = new List<Command> {
                 new Command { Id = 0, HowTo = "Boil an egg", Line = "Boil water", Platform = "Kettle & Pan" },

@@ -19,7 +19,7 @@ namespace Commander.Data
     // In order to create a migration, we must have a Context file like this defined
     public class CommanderContext : DbContext
     {
-        public DbSet<Command> Commands { get; set; } // represent Command object
+        public DbSet<Command> Commands { get; set; } // Call this to get back a list of commands
 
         public CommanderContext(DbContextOptions<CommanderContext> opt) : base(opt)
         {
