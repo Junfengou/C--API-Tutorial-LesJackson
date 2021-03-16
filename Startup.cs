@@ -32,9 +32,12 @@ namespace Commander
 
             services.AddControllers();
 
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
             /* This is use for dependency injection, you map out your interface and the class that implement the interface*/
             // services.AddScoped<ICommanderRepo, MockCommanderRepo>();
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
+
 
         }
 

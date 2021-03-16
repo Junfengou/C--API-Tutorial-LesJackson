@@ -61,3 +61,5 @@ D:\NET\LesJacksonApi\Commander\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\M
 D:\NET\LesJacksonApi\Commander\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\NET\LesJacksonApi\Commander\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\NET\LesJacksonApi\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CopyComplete
+D:\NET\LesJacksonApi\Commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\NET\LesJacksonApi\Commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

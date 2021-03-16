@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "A2u9JMKTcMXDuDIVOQ3XVi9j4ZdOKQESGT48Ix1KoLApMx4CwPBxEnAV4jHIq6F/+Drr+TxgEL5ngEgTLefH0Q==",
+  "dgSpecHash": "GIAdRi/pf0Gsj7i7fqY11TA9x/n1/SOqvViK3sfSpzbfGByxDeWPaCxH6Yq4G9m9vKiSa+ZPtlxjTnEK1bJZww==",
   "success": true,
   "projectFilePath": "D:\\NET\\LesJacksonApi\\Commander\\Commander.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Junfeng Ou\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Junfeng Ou\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
@@ -65,7 +67,7 @@
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\system.private.uri\\4.3.2\\system.private.uri.4.3.2.nupkg.sha512",
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Junfeng Ou\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
+    "C:\\Users\\Junfeng Ou\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "C:\\Users\\Junfeng Ou\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
