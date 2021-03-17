@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization; // This is for patch 
 
 namespace Commander
 {
@@ -30,13 +31,18 @@ namespace Commander
             // This allows the program to properly communicate with DB. ConnectionString is specified under appsettings.json
             services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CommanderConnection")));
 
-            services.AddControllers();
+            //services.AddControllers();
+            // Patch request require this
+            services.AddControllers().AddNewtonsoftJson(serialize =>
+                serialize.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver());
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             /* This is use for dependency injection, you map out your interface and the class that implement the interface*/
             // services.AddScoped<ICommanderRepo, MockCommanderRepo>();
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
+
+
 
 
         }
